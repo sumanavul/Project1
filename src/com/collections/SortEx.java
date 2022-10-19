@@ -12,6 +12,7 @@ public class SortEx {
 		al.add("Saurav");  
 		al.add("Mukesh");  
 		al.add("Tahir"); 
+		al.remove(1);
 		Collections.sort(al);
 		for (String s : al) {
 			System.out.println(s);
