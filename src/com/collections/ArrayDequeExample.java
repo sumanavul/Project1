@@ -11,6 +11,7 @@ public class ArrayDequeExample {
 		d.add("Hari");
 		d.add("Krish");
 		d.add("Venky");
+		d.add("Hari");
 		d.offerFirst("Vivek");
 		for (String s : d) {
 			System.out.println(s);
